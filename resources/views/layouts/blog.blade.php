@@ -13,6 +13,15 @@
 
 <link href="{{ elixir('css/all.css') }}" rel="stylesheet" type="text/css"/>
 <link href="{{ elixir('css/app.css') }}" rel="stylesheet" type="text/css"/>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6b9ff60d39106e41d02947bcb9699aa5";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
 <link rel="shortcut icon" href="{{asset('image/favicon.ico')}}"/>
 </head>
@@ -22,7 +31,7 @@
     @section('promo')
     <div class="promo-block-v2 fullheight text-center">
         <div class="container vertical-center-aligned">
-            <h1 class="promo-block-v2-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">Welcome To iWanli's Blog</h1>
+            <h1 class="promo-block-v2-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">Welcome To hellloveyy's Blog</h1>
             <p class="promo-block-v2-text margin-b-50 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
                 I am a slow walker, but I never walk backwards...
             </p>

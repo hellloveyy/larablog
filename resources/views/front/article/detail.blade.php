@@ -26,8 +26,22 @@
         <div class="blog-single-post-content">
             <div class="heading-v1 text-center margin-b-30" style="padding: 0 15px">
                 <h2 class="heading-v1-title">Leave a comment</h2>
-                {!! $settings['comment'] !!}
+                <!-- 多说评论框 start -->
                 <div class="ds-thread" data-thread-key="{{$article->id}}" data-title="{{$article->title}}" data-url="{{request()->fullUrl()}}"></div>
+                <!-- 多说评论框 end -->
+                <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+                <script type="text/javascript">
+                    var duoshuoQuery = {short_name:"hellloveyy"};
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';ds.async = true;
+                        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0]
+                        || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+                </script>
+                <!-- 多说公共JS代码 end -->
             </div>
         </div>
     </div>

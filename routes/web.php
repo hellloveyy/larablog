@@ -13,14 +13,14 @@
 
 Auth::routes();
 
-Route::group(['namespace' => 'Iwanli', 'domain' => 'iwanli.me'],function ($router){
+Route::group(['namespace' => 'Iwanli', 'domain' => 'iooik.com'],function ($router){
 	$router->get('/','IndexController@index');
 });
 
-Route::group(['namespace' => 'Iwanli', 'domain' => 'www.iwanli.me'],function ($router){
+Route::group(['namespace' => 'Iwanli', 'domain' => 'www.iooik.com'],function ($router){
 	$router->get('/','IndexController@index');
 });
-Route::group(['namespace' => 'Iwanli', 'domain' => 'blog.iwanli.me'],function ($router){
+Route::group(['namespace' => 'Iwanli', 'domain' => 'blog.iooik.com'],function ($router){
 	$router->get('/','IndexController@blog');
 	$router->post('search','IndexController@search');
 	$router->get('/test','ArticleController@test');

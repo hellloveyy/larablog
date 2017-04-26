@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>i晚黎后台</title>
+  <title>hellloveyy后台</title>
   <link href="{{asset('vendors/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
   <link href="{{asset('vendors/animate/animate.css')}}" rel="stylesheet">
@@ -87,7 +87,7 @@
               10GB of <strong>250GB</strong> Free.
           </div>
           <div>
-              <strong>Copyright</strong> 晚黎后台 &copy; http://www.iwanli.me
+              <strong>Copyright</strong> hellloveyy后台 &copy; http://www.iooik.com
           </div>
       </div>
 
