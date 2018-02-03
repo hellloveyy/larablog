@@ -60,12 +60,6 @@
 
                             {{--<li class="nav-item">--}}
                                 {{--<a class="nav-item-child radius-3" href="javascript:void(0);">--}}
-                                    {{--学院(Comming)--}}
-                                {{--</a>--}}
-                            {{--</li>--}}
-
-                            {{--<li class="nav-item">--}}
-                                {{--<a class="nav-item-child radius-3" href="javascript:void(0);">--}}
                                     {{--关于我(Comming)--}}
                                 {{--</a>--}}
                             {{--</li>--}}
@@ -99,18 +93,6 @@
                         Blog
                     </a>
                 </li>
-                {{--<li class="promo-block-v11-category-item wow bounceIn" data-wow-duration=".2" data-wow-delay=".6s">--}}
-                    {{--<a class="promo-block-v11-category-link radius-3" href="#">--}}
-                        {{--<i class="promo-block-v11-category-icon fa fa-free-code-camp"></i>--}}
-                        {{--LaraU--}}
-                    {{--</a>--}}
-                {{--</li>--}}
-                {{--<li class="promo-block-v11-category-item wow bounceIn" data-wow-duration=".2" data-wow-delay=".8s">--}}
-                    {{--<a class="promo-block-v11-category-link radius-3" href="#">--}}
-                        {{--<i class="promo-block-v11-category-icon fa fa-vcard"></i>--}}
-                        {{--Me--}}
-                    {{--</a>--}}
-                {{--</li>--}}
                 <li class="promo-block-v11-category-item wow bounceIn" data-wow-duration=".2" data-wow-delay="1s">
                     <a class="promo-block-v11-category-link radius-3" target="_blank" href="https://github.com/hellloveyy">
                         <i class="promo-block-v11-category-icon fa fa-github"></i>
