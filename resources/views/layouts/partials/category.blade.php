@@ -33,8 +33,8 @@
 
                 <div class="navbar-logo">
                     <a class="navbar-logo-wrap" href="/">
-                        <img class="navbar-logo-img navbar-logo-img-white" src="{{asset('image/logo-white.png')}}" alt="晚黎">
-                        <img class="navbar-logo-img navbar-logo-img-dark" src="{{asset('image/logo-dark.png')}}" alt="晚黎">
+                        {{--<img class="navbar-logo-img navbar-logo-img-white" src="{{asset('image/logo-white.png')}}" alt="晚黎">--}}
+                        {{--<img class="navbar-logo-img navbar-logo-img-dark" src="{{asset('image/logo-dark.png')}}" alt="晚黎">--}}
                     </a>
                 </div>
             </div>
